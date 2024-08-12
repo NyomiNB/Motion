@@ -5,4 +5,10 @@ html {
 
 .navBar{
   display: flex;
+  justify-content: space-evenly;
+}
+
+.navBar a{
+  font-size: 30px;
+  padding-top: 20px;
 }
