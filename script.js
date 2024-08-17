@@ -26,3 +26,4 @@ function deleteCard(){
 // function moveImage(){
 //   image: right 100px;
 // }
+//POMODORO
