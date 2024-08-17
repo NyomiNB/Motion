@@ -16,7 +16,7 @@ html {
 }
 
 .navBar a:hover{
-  font-size: 40px;
+  font-weight: bold;
 }
 
 .waves{
@@ -27,10 +27,91 @@ html {
 }
 
 .welcome{
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 60px;
   font-size: 20px;
-  color: mediumturquoise;
+  color: teal;
 }
 
+.bullets{
+  font-size: 20px;
+  padding-left: 20%;
+}
+
+.motto{
+  text-align: center;
+  padding-top: 30px;
+  font-family: Copperplate, "Courier New", cursive;
+  font-size: 50px;
+  color: lightseagreen
+}
+
+.swimmingFish{
+  width: 100px;
+  height: 100px:
+  object-fit: cover;
+  transform: scaleX(-1);
+  position:absolute;
+  left:1000px;
+  top:1050px;
+  animation: swim 10s ease-in-out infinite;
+}
+
+.quotes{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+
+.img1{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img2{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img3{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img4{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img1:hover{
+  transform:scale(1.10)
+}
+
+.img2:hover{
+  transform:scale(1.10)
+}
+
+.img3:hover{
+  transform:scale(1.05)
+}
+
+.img4:hover{
+  transform:scale(1.10)
+}
+
+@keyframes swim{
+0%{
+  transform: translateX(0)
+}
+50%{
+  transform: translateX(-1000px);
+}
+100%{
+  transform: scaleX(-1);
+  transform: translateX(500px);
+}
+}
