@@ -20,7 +20,7 @@ font-size: 20px;
 }
 
 .navBar a:hover{
-  font-size: 40px;
+  font-weight: bold;
 }
 
 .waves{

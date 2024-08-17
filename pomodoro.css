@@ -21,7 +21,7 @@ h1{
 }
 
 .navBar a:hover{
-  font-size: 40px;
+  font-weight: bold;
 }
 
 .waves{
